@@ -6,7 +6,6 @@
 body{
 	font-weight: normal;
     color: #404040;
-    min-height: 100%;
     overflow-x: hidden;
     background: #edf0f2;
 }
@@ -23,54 +22,133 @@ body{
 .menu-unfixed{
 	width: 250px;
 	background: #343131;
-	padding-right: 1050px;
+	margin-right: 1050px;
 }
 .menu-top{
 	background: #2980B9;
-	width:226px;
-	height: 100px;
-	padding: 25px 12px;
+	width:220px;
+	height: 80px;
+	padding: 22px 15px 18px 15px;
 }
 .my-img{
 	width: 30px;
 	height: 30px;
-	margin-right: 20px;
-	border-radius: 10%;
+	margin-right: 15px;
+	border-radius: 5px;
 }
 .my-name{
 	line-height: 30px;
-	font-size: 25px;
+	font-size: 26px;
+	color: #fcfcfc;
+	cursor:pointer;
+}
+.menu-bar{
+	width: 220px;
+	height: 25px;
+	margin-top: 25px;
 	color: #fcfcfc;
 }
+.menu-bar li{
+	font-size: 15px;
+	line-height: 25px;
+	border-radius: 3px;
+	padding:0 5px;
+	cursor:pointer;
+}
+.wrap span{
+	cursor:pointer;
+}
 .menu-center{
-	padding: 15px 0;
+	padding: 30px 0;
+	margin-bottom: 44px;
+}
+.menu-bottom{
+	width: 230px;
+	background: #272525;
+	padding: 12px 10px;
+	position: fixed;
+	z-index: 300;
+	bottom: 0;
+	left: 0;
+	color: #fcfcfc;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
 }
 #menu ul{
 	list-style: none;
 }
-#menu li{
-	text-align: center;
+.menu-cli{
 	font-size: 14px;
 	color: #d9d9d9;
-	width: 204px;
+	max-width: 204px;
+	min-height: 20px;
 	padding: 6px 23px;
+	cursor:pointer;
+}
+.menu-center>ul>ul{
+	display: none;
+}
+.menu-center>ul>ul>ul{
+	display: none;
+}
+.menu-clic{
+	font-size: 13px;
+	color: #343131;
+	background: #a9a9a9;
+	max-width: 189px;
+	min-height: 20px;
+	padding: 6px 23px 6px 38px;
+	cursor:pointer;
+}
+.menu-clicc{
+	font-size: 12px;
+	color: #343131;
+	background: #c9c9c9;
+	max-width: 174px;
+	min-height: 20px;
+	padding: 5px 23px 5px 53px;
+	cursor:pointer;
 }
 .contain-unfixed{
 	width: 750px;
-	padding: 25px 150px 25px 400px;
+	padding: 50px 150px;
+	margin-left: 250px;
 	background: #fcfcfc;
 }
 .contain-fixed{
 	width: 750px;
-	padding: 25px 150px 25px 150px;
+	padding: 50px 150px;
 	background: #fcfcfc;
 	position: fixed;
 	top: 0;
 	left: 250px;
 	z-index: 200;
 }
-#contain p{
+#contain a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #3091d1;
+}
+#contain hr{
+	margin: 25px 0;
+}
+.contain-center p{
 	font-size:16px;
+}
+.contain-center img{
+	width: 100%;
+	padding: 12px 0;
+}
+.to-top{
+	position: fixed;
+	bottom: 200px;
+	left: 1300px;
+	z-index: 300;
+}
+.to-top img{
+	width: 60px;
+	height: 60px;
 }
 .row-in{
 	display: flex;
